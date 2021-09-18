@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Day 2</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        // JavaScript Operators
+        let a = 5;
+        let b = 7;
+        let c = a + b;
+        console.log(c);
+        c++;
+        console.log(c);
+        c+=3;
+        console.log(c);
+        let d = a ** 2;
+        console.log(d);
+        let x = "Hello";
+        let y = "World!";
+        let z = x + " " + y;
+        console.log(z);
+        b %= 2;
+        console.log(b);
+        console.log(typeof z);
+        let carName = "Volvo";
+        let carNumber = 20;
+        let car = carNumber + carName;
+        console.log(car);
+        let newCar = 2 + carName;
+        console.log(newCar);
+        newCar = 2 + 3 + carName;
+        console.log(newCar);
+        newCar = carName + 5 + 3;
+        console.log(newCar);
+
+        // JavaScript Data Types
+        let name = "Adrita";                                        // String data type
+        let age = 4;                                                // Number date type
+        let isGirl = true;                                          // Boolean data type
+        const bio = ["Adrita", 4, true];                            // Array data type
+        const adrita = {name: "Adrita", age: 4, gender: "Female"};  // Object data type
+        typeof adrita;                                              // Typeof Operator (date type)
+        let fullName;                                               // Undefined data type
+        let otherName = "";                                         //Null data type
+
+        // JavaScript Functions
+        function myFunction(work, time){
+            console.log("Work name: " + work + " , work time: " + time + " PM");
+        }
+        myFunction("Read", 10);
+        myFunction("Sleep", 11);
+        
+        </script>
+</body>
+</html>
